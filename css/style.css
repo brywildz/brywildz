@@ -110,10 +110,10 @@ h2 {
     transition: background 0.3s, transform 0.2s;
 }
 
-/* Effet au survol */
+
 .sidebar ul li a:hover {
     background: #444;
-    transform: scale(1.05); /* Légère animation */
+    transform: scale(1.05); 
     border-radius: 5px;
 }
 
@@ -176,21 +176,21 @@ footer {
 }
 
 .conteneur{
-    display: flex; /* Active l'affichage en ligne */
-    justify-content: center; /* Centre les figures horizontalement */
+    display: flex; 
+    justify-content: center; 
     align-items: center;
-    gap: 20px; /* Espace entre l'image et le texte */
+    gap: 20px; 
 }
 
 .conteneur img {
-    flex-basis: 30%; /* L’image prend 30% de l’espace */
-    max-width: 200px; /* Taille max */
+    flex-basis: 30%; 
+    max-width: 200px; 
     height: auto;
-    flex-shrink: 0; /* Empêche l’image de se réduire */
-    border-radius: 10px; /* Optionnel : Ajoute des bords arrondis */
+    flex-shrink: 0; 
+    border-radius: 10px;
 }
 
 .container p {
-    flex: 1; /* Le texte prend tout l’espace restant */
-    font-size: 1.2em; /* Agrandir le texte si besoin */
+    flex: 1; 
+    font-size: 1.2em; 
 }
