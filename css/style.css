@@ -1,0 +1,194 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #3a3a6979;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.double-image {
+    justify-content: center; /* Centre les figures horizontalement */
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.content {
+    margin-left: 270px; /* Décale le contenu pour éviter qu'il soit sous la sidebar */
+    padding: 20px;
+}
+
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #222;
+}
+
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /* Largeur */
+    height: 100vh; /* Hauteur sur toute la page */
+    background: #222; /* Noir léger pour un effet moderne */
+    color: white;
+    padding-top: 20px;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3); /* Ajoute une ombre à droite */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style du logo */
+.sidebar img {
+    width: 150px; /* Ajuste la taille du logo */
+    margin-bottom: 20px;
+}
+
+/* Style des liens */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Effet au survol */
+.sidebar ul li a:hover {
+    background: #444;
+    transform: scale(1.05); /* Légère animation */
+    border-radius: 5px;
+}
+
+
+section, article {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 5%;
+    margin-bottom : 2%;
+    border:2px solid rgb(211, 211, 211);
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: black;
+    color: white;
+    margin-top: 20px;
+}
+
+.conteneur{
+    display: flex; /* Active l'affichage en ligne */
+    justify-content: center; /* Centre les figures horizontalement */
+    align-items: center;
+    gap: 20px; /* Espace entre l'image et le texte */
+}
+
+.conteneur img {
+    flex-basis: 30%; /* L’image prend 30% de l’espace */
+    max-width: 200px; /* Taille max */
+    height: auto;
+    flex-shrink: 0; /* Empêche l’image de se réduire */
+    border-radius: 10px; /* Optionnel : Ajoute des bords arrondis */
+}
+
+.container p {
+    flex: 1; /* Le texte prend tout l’espace restant */
+    font-size: 1.2em; /* Agrandir le texte si besoin */
+}

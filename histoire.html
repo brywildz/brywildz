@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+</html>
+<meta charset="UTF-8">
+<meta name="description" content="Page sur l'évolution du CAPTCHA">
+<meta name="author" content="Dylan Manseri, Amadou Bawol">
+<link rel="stylesheet" href="css/style.css">
+<h1 class="h1">Histoire et évolution</h1>
+
+<body class="body">
+    <header class="sidebar">
+        <link rel="stylesheet" href="css/style.css">
+        <img src="images/cyLogo.png" alt="Logo de l'université CY Cergy Paris Université">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <nav>
+            <ul>
+                <li>
+                    <p style="font-size : 24px"> <a href="index.html">Page d'accueil</a> </p>
+                </li>
+                <li>
+                    <p style="font-size : 24px"> <a href="histoire.html">Histoire et évolution du CAPTCHA</a> </p>
+                </li>
+                <li>
+                    <p style="font-size : 24px"> <a href="limite.html">Les limites et problèmes des CAPTCHA </a></p>
+                </li>
+                <li>
+                    <p style="font-size : 24px"> <a href="alternatives.html">Les alternatives aux CAPTCHA </a></p>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cadrant">
+        <section>
+            <article>
+                Le Captcha a enormement évolué au fil des années. En effet une guerre invisible entre les bot et les
+                auteurs des Captcha grandissait
+                au fur et à mesure que les Captcha évoluait car ils devennaient de plus en plus performants, mais plus
+                ont les réinventaient plus les bots etait performants.
+            </article>
+            <h2>💡 L'invention du CAPTCHA</h2>
+            <p>Dans les debuts d'internet <strong>les forums</strong> et <strong>les sites d'achats</strong> était
+                extrèmement populaire. La raison est que ces sites facilitait des tâches qui nécessait
+                <strong>des tâches intermediaire</strong>. Par exemple pour avoir la solution d'une quête d'un jeux
+                vidéo il fallait acheter un magzine, appeler une hotlines ou alors le
+                bouche à oreille. Lorsque les forums sont arrivés l'entierté de ces tâches ont été
+                <strong>remplacé</strong> par le simple fait de se rendre sur le forum et demander la solution
+                si aucun utilisateur l'a fait avant. Dans le cas des sites d'achats cela permettait aux utilisateurs de
+                pouvoir acheter des articles introuvables dans leur villes.
+            </p>
+            <div class="conteneur">
+                <p>
+                    <strong>Automatisé une tâche</strong> est certes une facilité et un gain de temps enorme au grand
+                    public, <strong>mais cela ouvre des failles</strong>. En effet un simple script suffisait à
+                    parcourir site et d'y faire tout ce qui y était possible. Pour les forums <strong>les sites se retrouvaient pollué</strong> de faux 
+                    commentaires ce qui rendait difficile la disscution avec d'autres utilisateurs. Pour les site d'achats le problème est pire, à l'annonce d'un concert les
+                    pirates s'empressent d'envoyer des milliers de bots achetaient un ticket pour les revendre ensuite à des prix exorbitants.
+                    <strong>La solution</strong> trouvé à cela est <strong>le CAPTCHA</strong>, inventé en 2000 par une equipe de chercheurs de Carnegie Mellon University 
+                    composée de <strong>Luis von Ahn, Manuel Blum Nicolas Hopper et John Langford</strong>.
+                </p>
+                <figure>
+                    <img src="images/Luis.jpg">
+                    <figcaption style="font-style: italic;">Luis von Ahn</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2>🔄 Differents usages du CAPTCHA</h2>
+            <p>Les premiers CAPTCHA était des textes déformés, ils étaient pratique car extrement simple pour un humain
+                mais peu accessible pour un robot à l'époque.
+                C'est 200 millions de CAPTCHA déchiffré en 2006, cela suffit pour convaincre l'equipe de l'université
+                Carnegie-Mellon a utilisé le temps passer par les utilisateurs
+                au profit de la litterature. De là vient la création de <strong>reCAPTCHA</strong> en 2007.
+            </p>
+            <figure style="text-align: center;">
+                <img src="images/recaptcha.png">
+                <figcaption style="font-style: italic;">Nouveaux CAPTCHA après la creation de reCAPTCHA</figcaption>
+            </figure>
+            <p>
+                A premiere vue ce CAPTCHA est comme les autres mais en un peu plus complqué car ici on a deux mot. Un
+                mot déformé et un mot écrit normalement.
+                <strong>Comment cette simple modification peut servir à la litterature ?</strong>
+            </p>
+            <p>En réalité le test de logique visant à éloigner les robots n'est que <strong>le premier mot
+                    déformé</strong>. Le deuxième est un mot issu d'un livre numérisé au préalable.
+                Pour <strong>faciliter et accélerer</strong> la numerisation de livre lorsque plusieurs utilisateurs
+                lisait le même mot sur un reCAPTCHA celui-ci était retenu et servait à la
+                numerisation de livres (en general de vieux livres).
+            </p>
+        </section>
+        <section>
+            <h2>🏢 Rachat de reCaptcha par Google</h2>
+            <p>En 2009 les CAPTCHA sont présent sur beaucoup de site mais suite au <strong>rachat de Google</strong> en 2009 on peut maintenant les voir partout et surtout dans les outils
+                de Google (Gmail, Youtube, etc...). Suite à cela Google vit une opportunité pour son outils de GPS en ligne <strong>Google Maps</strong>. De la même manière que l'auteur de CAPTCHA
+                le faisait avec les livre Google utilise le temps des utilisateurs pour <strong>améliorer son service</strong>.
+            </p>
+            <figure style="text-align: center;">
+                <img src="images/rue.avif">
+                <figcaption style="font-style: italic;">Captcha utilisé par Google pour améliorer Google Maps
+                </figcaption>
+            </figure>
+            <p>Sur cette image on observe <strong>la même logique</strong> que le reCaptcha plus haut on a un premier test logique visant à déterminer si l'utilisateur est un humain.
+                Le deuxième test est une image prise de Google Street View (outils de Google Maps permettant de se balader dans une ville comme si on y était).
+                Dans notre cas il s'agit du numero d'un batiment (8001).
+            </p>
+        </section>
+        <section>
+            <h2>🖼️ Captcha image</h2>
+            <p>Les Captcha textuel deviennent de plus en plus <strong>obsoletes</strong>, les methodes de reconnaissance de texte etant <strong>très performantes</strong> il etait simple pour
+                les intelligences artificielle de les contourner. Le Captcha image est la solution adopté par Google
+                car les robots y était moins préparé et en plus, cela etait aussi utile pour améliorer Google Maps.
+            </p>
+            <p>
+                Cette méthode est encore utilisée <strong>aujourd'hui</strong> pour empêcher les robots d’accéder aux sites.
+                Les questions sont variées : il peut s’agir de choisir quelles images représentent un véhicule ou un animal (ou autre),
+                ou encore de sélectionner plusieurs parties d'une image en répondant à une question. Par exemple, dans l’image ci-dessous,
+                on nous demande de sélectionner les feux rouges. Ce processus contribue à améliorer <strong>la précision de Google Maps</strong> en informant les usagers
+                de la présence d’un feu tricolore. De plus, Google entraîne son IA de reconnaissance d’images sur Google Street View grâce à nos réponses.
+            </p>
+            <figure style="text-align: center;">
+                <img src="images/mapsFeux.png">
+                <figcaption style="font-style: italic;">Captcha nous demandant de montrer les feux de signalisations
+                </figcaption>
+            </figure>
+        </section>
+        <article>
+            <p>Les Captcha cité précedement sont performant mais limité déja par l'évolution exponentielle des
+                intelligences artificielle et des outils moderne de
+                reconnaissance d'image ou de texte. Par ailleurs ils peuvent poser problèmes pour les personnes en
+                incapacité à dechiffrer des mots complexes (dyslexie, etc...)
+                ou les aveugles.
+            </p>
+            <p>Google proposera des alternatives comme les Captcha audio mais cela aussi se retrouver très facilement
+                contournable avec les outils actuel.</p>
+            <figure style="text-align: center;">
+                <img src="images/captchaAudio.png">
+                <figcaption style="font-style: italic;">Captcha audio pour les aveugles/malvoyants</figcaption>
+            </figure>
+        </article>
+        <section>
+            <h2>✅ Captcha "Je ne suis pas un robot"</h2>
+            <p> Pendant des années, les utilisateurs devaient déchiffrer du texte déformé ou sélectionner des images
+                représentant des objets comme des feux de circulation ou des passages piétons. Mais en 2014, Google a introduit <strong>une alternative plus simple et plus rapide</strong> :
+                la fameuse case à cocher <strong>"Je ne suis pas un robot"</strong>, connue sous le nom de reCAPTCHA v2. </p>
+            <p>Contrairement aux Captcha traditionnel celui-ci visiblement ne vous demande rien, juste une case à
+                cocher. <strong>Comment fait-il ?</strong></p>
+            <div class="conteneur">
+                <nav>
+                    <ul>
+                        <li>
+                            <strong>Analyse les mouvement de la souris</strong>, un robot cliquera très précisement et
+                            très rapidement sur l'endroit souhaité.
+                        </li>
+                        <li>
+                            <strong>Analyse votre historique de navigation</strong>, un robot consultera les même types
+                            de sites en boucle.
+                        </li>
+                        <li>
+                            <strong>Analyse votre temps de réaction</strong>, un robot est beaucoup plus rapide qu'un
+                            humain.
+                        </li>
+                    </ul>
+                </nav>
+                <figure>
+                    <img src="images/jeNeSuisPasUnRobot.png">
+                    <figcaption style="font-style: italic;">Captcha d'un case à cocher</figcaption>
+                </figure>
+            </div>
+            <p>Si le test est un echec <strong>un Captcha image peut être demandé en complement</strong> mais du point de vue de
+                l'utilisateur humain, le test sera effectué <strong>en 3 seconde</strong>. Google
+                a proposé ici une alternative <strong>très rapide et simple</strong> pour n'importe quel utilisateurs. Cependant cela
+                soulève quelques questions liés à la confidentialité.
+                <strong>Est-ce que consulter l'historique d'un utilisateur est vraiment acceptable ?</strong>
+            </p>
+        </section>
+    </main>
+    <footer class="footer"><strong>Site web écrit et réalisé par Dylan Manseri et Amadou Bawol</strong></footer>
+</body>
