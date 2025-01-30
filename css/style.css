@@ -72,8 +72,8 @@ h2 {
     top: 0;
     width: 250px; /* Largeur */
     height: 100vh; /* Hauteur sur toute la page */
-    background: #222; /* Noir léger pour un effet moderne */
-    color: white;
+    background: #9aa9b1; /* Noir léger pour un effet moderne */
+    color: rgba(36, 59, 85, 0.257);
     padding-top: 20px;
     box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3); /* Ajoute une ombre à droite */
     display: flex;
