@@ -11,14 +11,14 @@ body {
 }
 
 .double-image {
-    justify-content: center; /* Centre les figures horizontalement */
+    justify-content: center; 
     align-items: center;
     display: flex;
     gap: 30px;
 }
 
 .content {
-    margin-left: 270px; /* Décale le contenu pour éviter qu'il soit sous la sidebar */
+    margin-left: 270px; 
     padding: 20px;
 }
 
@@ -70,24 +70,24 @@ h2 {
     position: fixed;
     left: 0;
     top: 0;
-    width: 250px; /* Largeur */
-    height: 100vh; /* Hauteur sur toute la page */
-    background: #9aa9b1; /* Noir léger pour un effet moderne */
+    width: 250px; 
+    height: 100vh;
+    background: #9aa9b1; 
     color: rgba(36, 59, 85, 0.257);
     padding-top: 20px;
-    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3); /* Ajoute une ombre à droite */
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3); 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Style du logo */
+
 .sidebar img {
-    width: 150px; /* Ajuste la taille du logo */
+    width: 150px; 
     margin-bottom: 20px;
 }
 
-/* Style des liens */
+
 .sidebar ul {
     list-style: none;
     padding: 0;
