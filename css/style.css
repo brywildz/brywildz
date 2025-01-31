@@ -57,21 +57,22 @@ ul {
 
 
 h1 {
-    background: rgba(231, 231, 231, 0.508); /* Fond noir semi-transparent */
-    color: #000000; /* Texte orange vif */
+    background: rgba(231, 231, 231, 0.508);
+    color: #000000;
     padding: 15px 30px;
-    border-radius: 8px; /* Bords arrondis */
+    border-radius: 8px;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid rgba(230, 230, 230, 0.8); /* Bordure orange légère */
-    display: inline-block; /* Ajuste la largeur du titre */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5); /* Ombre noire légère */
-    display: block; /* S'assure qu'il prend toute la ligne */
-    width: fit-content; /* Ajuste la largeur au texte */
-    margin: 0 auto; /* Centre horizontalement */
+    border: 2px solid rgba(230, 230, 230, 0.8);
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    display: block;
+    /*width: fit-content;*/
+    /*margin: 0 auto;*/
+    margin-bottom: 1 auto;
 }
 
 h2 {
@@ -87,7 +88,7 @@ h2 {
     top: 0;
     width: 250px; /* Largeur */
     height: 100vh; /* Hauteur sur toute la page */
-    background: #222; /* Noir léger pour un effet moderne */
+    background: #707abf79; /* Noir léger pour un effet moderne */
     color: white;
     padding-top: 20px;
     box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3); 
@@ -116,7 +117,7 @@ h2 {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: rgb(64, 63, 151);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: bold;
@@ -127,7 +128,7 @@ h2 {
 
 /* Effet au survol */
 .sidebar ul li a:hover {
-    background: #444;
+    background: #b5b4b493;
     transform: scale(1.05); 
     border-radius: 5px;
 }
